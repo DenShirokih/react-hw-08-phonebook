@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const ContainerForm = styled.div`
   margin: 0 auto;
-  width: 600px;
+  max-width: 600px;
 `;
 export const Form = styled.form`
   padding-top: 180px;
@@ -23,7 +23,7 @@ export const Input = styled.input`
 `;
 
 export const BtnRegistr = styled.button`
-  width: 150px;
+  max-width: 150px;
   height: 40px;
   font-size: 16px;
   width: 60%;

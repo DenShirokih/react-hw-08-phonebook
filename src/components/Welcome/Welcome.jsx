@@ -1,11 +1,9 @@
-import { WelcomeWrapper, WelcomeImg, WelcomeTitle } from './Welcome.styled';
-import logo from 'img/welcomeImg.png';
+import { WelcomeLogo, Wrapper } from './Welcome.styled';
 
 export const Welcome = () => {
   return (
-    <WelcomeWrapper>
-      <WelcomeImg src={logo} alt="" />
-      <WelcomeTitle>Welcome to Phonebook</WelcomeTitle>
-    </WelcomeWrapper>
+    <Wrapper>
+      <WelcomeLogo />
+    </Wrapper>
   );
 };

@@ -5,13 +5,13 @@ import { ReactComponent as Delete } from 'icons/delete.svg';
 export const Wrapper = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  width: 1300px;
+  max-width: 1300px;
 `;
 export const ContactWrapper = styled.li`
   margin-bottom: 15px;
   flex-direction: column;
   align-items: center;
-  flex-basis: 18%;
+  width: 200px;
   display: flex;
   border: none;
   border-radius: 15px;
@@ -51,12 +51,12 @@ export const BtnDelete = styled.button`
 `;
 
 export const ContactName = styled.p`
-  font-size: 30px;
+  font-size: 22px;
   font-family: Lato;
   margin-bottom: 10px;
 `;
 export const ContactNumber = styled.p`
-  font-size: 30px;
+  font-size: 22px;
   font-family: Lato;
   margin-bottom: 40px;
 `;

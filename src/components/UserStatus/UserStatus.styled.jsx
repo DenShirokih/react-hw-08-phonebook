@@ -4,6 +4,7 @@ export const UserStatusWrapper = styled.div`
   align-items: center;
   margin-right: 40px;
   display: flex;
+  max-width: 100%;
 `;
 export const BtnLogOut = styled.button`
   border: none;
@@ -15,7 +16,7 @@ export const BtnLogOut = styled.button`
 `;
 export const UsrName = styled.p`
   font-family: Lato;
-  font-size: 36px;
+  font-size: 22px;
   margin-right: 5px;
   color: #f4ebdb;
   margin-right: 14px;
